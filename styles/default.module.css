@@ -40,10 +40,14 @@
     justify-content: space-between;
 }
 .icon {
+    cursor: pointer;
     height: 2em;
     width: auto;
 
     color: #0000FF;
+}
+.icon:hover {
+    opacity: 0.75;
 }
 #right{
     width: 50%;
