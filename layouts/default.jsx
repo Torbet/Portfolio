@@ -16,6 +16,8 @@ export default function Default(props) {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta charSet="utf-8" />
                 <link rel="shortcut icon" href="/favicon.ico" />
+
+                <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/e539363b4b0f1208c8d23e3b7/062b6ffefded4a22c6462660a.js");</script>
             </Head>
             <div id={styles.main}>
                 <div id={styles.left}>
