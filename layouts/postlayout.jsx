@@ -25,6 +25,7 @@ export default function PostLayout(props) {
                 <meta name='description' content={`Guy Torbet | ${props.title}`} />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta charSet="utf-8" />
+                <link rel="shortcut icon" href="/favicon.ico" />
             </Head>
             <div id={styles.main}>
                 <Header title={props.title} />
