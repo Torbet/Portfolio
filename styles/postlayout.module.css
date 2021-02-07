@@ -1,0 +1,60 @@
+#bar {
+    background-color: #FFF;
+    max-width: 100%;
+    height: 7vh;
+    min-height: 45px;
+    opacity: 0.9;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0 2vw;
+
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    user-select: none;
+    -webkit-user-select: none;
+}
+#arrow {
+    cursor: pointer;
+    height: 2em;
+    width: auto;
+}
+
+#arrow:hover {
+    opacity: 0.75;
+}
+
+#main {
+    height: 100vh;
+    height: -webkit-fill-available;
+
+}
+
+#content {
+    padding: 0 2vw;
+}
+
+#title {
+    color: #0000FF;
+    font-weight: bold;
+}
+#date {
+    margin-top: 1em;
+    font-size: 1.1em;
+    color: rgba(0, 0, 0, 0.4);
+    text-align: end;
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+
+#post {
+        max-width: 740px;
+        margin: 0 auto;
+}

@@ -1,0 +1,18 @@
+* {
+    font-family: 'Helvetica Neue', 'Helvetica';
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+p {
+    font-size: 1.2em;
+}

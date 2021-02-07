@@ -1,0 +1,34 @@
+#container {
+    padding: 1em;
+}
+
+.tableRow {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1em 1em;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.tableRow:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.tableRow * {
+    padding: 0 1vw;
+}
+
+.repoCell {
+    width: 33%;
+    text-align: center;
+}
+.title {
+    font-size: 1.2em;
+}
+.subTitle {
+    font-size: 1em;
+    color: #555555;
+}

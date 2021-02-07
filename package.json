@@ -1,0 +1,32 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "Personal Site",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Torbet/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Torbet/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Torbet/Portfolio#readme",
+  "dependencies": {
+    "gray-matter": "^4.0.2",
+    "next": "^10.0.6",
+    "raw-loader": "^4.0.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0",
+    "react-markdown": "^5.0.3",
+    "react-syntax-highlighter": "^15.4.3"
+  }
+}
