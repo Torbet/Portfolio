@@ -3,7 +3,7 @@ import Head from 'next/head'
 import { FaArrowLeft } from "react-icons/fa"
 import {useRouter} from 'next/router'
 
-import styles from '../styles/postLayout.module.css'
+import styles from '../styles/postlayout.module.css'
 
 function Header(props) {
 
