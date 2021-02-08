@@ -12,7 +12,7 @@ function Post({ content, data }) {
 
     const renderers = {
         heading: (props) => <h2 style={{padding: '1em 0', borderTop: '1px #eee solid'}}>{props.children}</h2>,
-        paragraph: (props) => <p style={{ fontSize: "1.2em", fontWeight: '400', lineHeight: '1.2', marginBottom: '2vh' }}>{props.children}</p>,
+        paragraph: (props) => <p style={{ fontSize: "1.2em", fontWeight: '400', lineHeight: '1.4', marginBottom: '2vh' }}>{props.children}</p>,
         listItem: (props) => <li style={{ fontSize: "1.2em", marginLeft: '5vw' }}>{props.children}</li>,
         code: CodeBlock,
         blockquote: (props) => <h3 style={{paddingLeft: '2em', borderLeft: '0.5em #eee solid', margin: '1vh 0'}}>{props.children}</h3>,
