@@ -11,7 +11,7 @@ import { formatDate } from '../../api/index'
 function Post({ content, data }) {
 
     const renderers = {
-        heading: (props) => <h2 style={{marginBottom: '1em'}}>{props.children}</h2>,
+        heading: (props) => <h2 style={{padding: '1em 0', borderTop: '1px #eee solid'}}>{props.children}</h2>,
         paragraph: (props) => <p style={{ fontSize: "1.2em", fontWeight: '400', lineHeight: '1.2', marginBottom: '2vh' }}>{props.children}</p>,
         listItem: (props) => <li style={{ fontSize: "1.2em", marginLeft: '5vw' }}>{props.children}</li>,
         code: CodeBlock,
