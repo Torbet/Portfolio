@@ -61,11 +61,12 @@
     #left {
         width: 100vw;
         position: relative;
+        align-items: baseline;
 
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     }
     #about {
-        margin: auto;
+        margin: 2em auto;
     }
     #right {
         width: 100vw;
