@@ -24,11 +24,38 @@
 .repoCell {
     width: 33%;
     text-align: center;
+    
 }
 .title {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
     font-size: 1.2em;
 }
 .subTitle {
     font-size: 1em;
     color: #555555;
 }
+
+.postTitle {
+    display: -webkit-box;
+    line-clamp: 1;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.postDate {
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 740px) {
+    
+    .tableRow {
+        flex-direction: column-reverse;
+        align-items: baseline;
+    }
+}
+

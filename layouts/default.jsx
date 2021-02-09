@@ -16,7 +16,11 @@ export default function Default(props) {
                 <meta name='description' content={`${props.title}`} />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta charSet="utf-8" />
-                <link rel="shortcut icon" href="/favicon.ico" />
+                <meta name="twitter:creator" content="@guytorbet" />
+				<meta name="description" content="A personal blog and portfolio of Guy Torbet. Updating the progress of projects and summarising key information from what I read on line - hopefully providing value."/>
+                <meta property="og:title" content="Guy Torbet | Portfolio" />
+                <meta property="og:description" content="A personal blog and portfolio of Guy Torbet. Updating the progress of projects and summarising key information from what I read on line - hopefully providing value." />
+                
             </Head>
             <div id={styles.main}>
                 <div id={styles.left}>

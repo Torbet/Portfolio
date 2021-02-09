@@ -15,7 +15,6 @@
     position: -webkit-sticky;
     top: 0;
 
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     user-select: none;
     -webkit-user-select: none;
 }
@@ -39,9 +38,15 @@
     padding: 0 2vw;
 }
 
+#titleContainer {
+    max-width: 85%;
+    overflow-x: scroll;
+}
+
 #title {
+    font-size: 1.75em;
     color: #0000FF;
-    font-weight: bold;
+    white-space: nowrap;
 }
 #date {
     margin-top: 1em;
@@ -57,4 +62,11 @@
 #post {
         max-width: 740px;
         margin: 0 auto;
+}
+
+@media only screen and (max-width: 740px) {
+    #title {
+        font-size: 1.25em;
+    }
+    
 }
