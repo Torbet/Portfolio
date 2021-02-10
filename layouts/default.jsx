@@ -40,8 +40,10 @@ export default function Default(props) {
                     </div>
                 </div>
                 <div id={styles.right}>
-                    <NavBar />
-                    {props.children}
+                    <div id="posts">
+                        <NavBar />
+                        {props.children}
+                    </div>
                 </div>
 
             </div>

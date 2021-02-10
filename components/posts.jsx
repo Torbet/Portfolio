@@ -13,9 +13,9 @@ function Posts({ allPosts }) {
             <ul id={styles.table}>
                 {allPosts.map(function (post, key) {
                     return (
-                        <li onClick={() => { router.push(`/posts/${post.slug}`) }} key={key} className={styles.tableRow}>
+                        <li onClick={() => { router.push(`/posts/${post.slug}`) }} key={key} className={`${styles.tableRow} ${styles.post}`}>
                             <h2 className={`${styles.title} ${styles.postTitle}`}>{post.title}</h2>
-                            <h3 className={`${styles.subTitle} ${styles.postDate}`}>{formatDate(post.date)}</h3>
+                            <h3 className={styles.subTitle}>{formatDate(post.date)}</h3>
                         </li>
                     )
                 })}

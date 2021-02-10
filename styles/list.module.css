@@ -47,13 +47,9 @@
     -webkit-box-orient: vertical;
 }
 
-.postDate {
-    white-space: nowrap;
-}
-
 @media only screen and (max-width: 740px) {
     
-    .tableRow {
+    .post {
         flex-direction: column-reverse;
         align-items: baseline;
     }
