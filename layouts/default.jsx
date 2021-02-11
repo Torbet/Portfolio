@@ -23,7 +23,7 @@ export default function Default(props) {
                 
             </Head>
             <div id={styles.main}>
-                <div id={styles.left}>
+                <section id={styles.left}>
                     <div id={styles.about}>
                         <h1 id={styles.title}>GUY TORBET.</h1><br />
                         <p className={styles.subHeading}>I'm a 17 year old Software Developer and Student from Scotland.</p><br/>
@@ -38,13 +38,13 @@ export default function Default(props) {
                         </div>
 
                     </div>
-                </div>
-                <div id={styles.right}>
+                </section>
+                <section id={styles.right}>
                     <div id="c">
                         <NavBar />
                         {props.children}
                     </div>
-                </div>
+                </section>
 
             </div>
         </main>

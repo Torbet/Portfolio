@@ -31,11 +31,11 @@ export default function PostLayout(props) {
             <div id={styles.main}>
                 <Header title={props.title} />
         
-                <div id={styles.content}>
+                <article id={styles.content}>
                     <div id={styles.date}>{props.date}</div>
                     <div id={styles.post}>{props.children}</div>
                     
-                </div>
+                </article>
 
             </div>
         </main>
