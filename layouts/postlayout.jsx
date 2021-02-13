@@ -11,7 +11,7 @@ function Header(props) {
 
     return (
         <div id={styles.bar}>
-            <FaArrowLeft id={styles.arrow} onClick={() => {router.push('/#right')}} />
+            <FaArrowLeft id={styles.arrow} onClick={() => {router.push('/#c')}} />
             <div id={styles.titleContainer}><h2 id={styles.title}>{props.title}</h2></div>
             
             </div>
