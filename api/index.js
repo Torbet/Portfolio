@@ -18,10 +18,22 @@ export async function getPosts() {
         const content = await import(`../posts/${post}`);
         const meta = matter(content.default)
         posts.push({
-            slug: post.replace('.md', ''),
+            slug: post.replace('.md',''),
             title: meta.data.title,
-            date: meta.data.date
+            date: meta.data.date,
         })
     }
     return posts;
+}
+
+export async function getPostBySlug(slug){
+    const fileContent = await import(`../posts/${slug}.md`)
+    const meta = matter(fileContent.default)
+    const post = meta.data
+    const content = meta.content
+    return {
+        title: post.title,
+        date: post.date,
+        content: content
+    }
 }

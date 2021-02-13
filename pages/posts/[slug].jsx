@@ -1,4 +1,3 @@
-import matter from 'gray-matter'
 import ReactMarkdown from 'react-markdown'
 
 import PostLayout from '../../layouts/postlayout'
@@ -6,9 +5,9 @@ import PostLayout from '../../layouts/postlayout'
 import CodeBlock from "../../components/codeblock";
 import Image from '../../components/image'
 
-import { formatDate } from '../../api/index'
+import { formatDate, getPostBySlug, getPosts } from '../../api/index'
 
-function Post({ content, data }) {
+function Post(props) {
 
     const renderers = {
         heading: (props) => <h2 style={{padding: '1em 0', borderTop: '1px #eee solid'}}>{props.children}</h2>,
@@ -21,18 +20,26 @@ function Post({ content, data }) {
 
 
     return (
-        <PostLayout title={data.title} date={formatDate(data.date)}>
-                <ReactMarkdown source={content} renderers={renderers} />
+        <PostLayout title={props.title} date={formatDate(props.date)}>
+                <ReactMarkdown source={props.content} renderers={renderers} />
         </PostLayout>
     )
 }
 
-Post.getInitialProps = async (context) => {
-    const { slug } = context.query
-    const content = await import(`../../posts/${slug}.md`)
-    const data = matter(content.default)
-
-    return { ...data }
+export async function getStaticProps(context){
+    return {
+        props: await getPostBySlug(context.params.slug)
+    }
 }
 
+export async function getStaticPaths(){
+    let paths = await getPosts()
+    paths = paths.map(post => ({
+        params: { slug:post.slug }
+    }));
+    return {
+        paths: paths,
+        fallback: false
+    }
+}
 export default Post

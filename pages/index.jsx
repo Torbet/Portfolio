@@ -13,10 +13,10 @@ export default function Landing(props) {
 }
 
 export async function getStaticProps() {
-    const allPosts = await getPosts()
+    const posts = await getPosts()
     return {
         props: {
-            posts: allPosts,
+            posts: posts,
         }
     }
 }
