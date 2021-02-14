@@ -1,3 +1,3 @@
 export default function Image(props) {
-    return <img {...props} style={{maxWidth: '740px'}} />
+    return <img {...props} style={{width: '100%', height: 'auto'}} />
   }
