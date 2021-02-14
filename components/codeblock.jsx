@@ -12,8 +12,7 @@ const CodeBlock = ({ language, value }) => {
         borderRadius: "20px",
         padding: '1em',
         lineHeight: '1.5em',
-        fontSize: "1.2rem",
-        bacgroundColor: 'rgba(0, 0, 0, 0.1)'
+        fontSize: "1.2rem"
       }
 
     return (

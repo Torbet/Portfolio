@@ -1,0 +1,45 @@
+#container {
+    padding: 0 0.5em;
+}
+
+.tableRow {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1em 1em;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.tableRow:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.title {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    line-clamp: 1;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    font-size: 1.25em;
+}
+.date {
+    font-size: 1em;
+    color: #555555;
+    margin-left: 1em;
+
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 740px) {
+    
+    .tableRow {
+        flex-direction: column-reverse;
+        align-items: baseline;
+    }
+    .date {
+        margin: 0;
+    }
+}

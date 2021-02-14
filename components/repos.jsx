@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
 
-import styles from '../styles/list.module.css'
+import styles from '../styles/repos.module.css'
 
 function createData(Title, Description, Language, url) {
     return { Title, Description, Language, url };
@@ -28,14 +28,15 @@ export default function Repos(props) {
 
     return (
         <div id={styles.container}>
-            <ul id={styles.table}></ul>
+            <ul>
                 {arrayItems.map((row) => (
                         <li className={styles.tableRow} onClick={() => { router.push(row.url) }} key={row.Title}>
-                            <h2 className={`${styles.title} ${styles.repoCell}`}>{row.Title}</h2>
-                            <h3 className={`${styles.subTitle} ${styles.repoCell}`}>{row.Description}</h3>
-                            <h3 className={`${styles.subTitle} ${styles.repoCell}`}>{row.Language}</h3>
+                            <h2 className={styles.title}>{row.Title}</h2>
+                            <h3 className={styles.subTitle}>{row.Description}</h3>
+                            <h3 className={styles.subTitle}>{row.Language}</h3>
                         </li>
                 ))}
+            </ul>
 
 
         </div>

@@ -1,0 +1,37 @@
+#container {
+    padding: 0 0.5em;
+}
+
+.tableRow {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1em 1em;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.tableRow:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.title {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    line-clamp: 3;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-size: 1.2em;
+
+    width: 30%;
+    text-align: center;
+}
+.subTitle {
+    font-size: 1em;
+    color: #555555;
+
+    width: 30%;
+    text-align: center;
+}

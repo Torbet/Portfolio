@@ -22,11 +22,12 @@ export default function PostLayout(props) {
     return (
         <main>
             <Head>
-                <title>{props.title}</title>
-                <meta name='description' content={`Guy Torbet | ${props.title}`} />
+                <title>{`${props.title} | Guy Torbet`}</title>
+                <meta name='description' content={props.description} />
+                <meta property="og:title" content={`${props.title} | Guy Torbet`} />
+                <meta property="og:description" content={props.description} />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta charSet="utf-8" />
-                <link rel="shortcut icon" href="/favicon.ico" />
             </Head>
             <div id={styles.main}>
                 <Header title={props.title} />
@@ -34,7 +35,6 @@ export default function PostLayout(props) {
                 <article id={styles.content}>
                     <div id={styles.date}>{props.date}</div>
                     <div id={styles.post}>{props.children}</div>
-                    
                 </article>
 
             </div>
