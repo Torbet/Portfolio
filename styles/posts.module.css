@@ -16,13 +16,20 @@
 .tableRow:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
+
+.titleContainer {
+    width: 100%;
+    overflow-x: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.titleContainer::-webkit-scrollbar {
+    display: none;
+}
+
 .title {
-    text-overflow: ellipsis;
-    overflow: hidden;
-    display: -webkit-box;
-    line-clamp: 1;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
+    white-space: nowrap;
     font-size: 1.25em;
 }
 .date {

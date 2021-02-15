@@ -42,7 +42,14 @@
 #titleContainer {
     max-width: 87.5%;
     overflow-x: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
+
+#titleContainer::-webkit-scrollbar {
+    display: none;
+}
+
 
 #title {
     font-size: 1.75em;

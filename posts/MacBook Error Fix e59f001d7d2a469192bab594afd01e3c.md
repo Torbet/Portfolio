@@ -1,7 +1,7 @@
 ---
 title: MacBook T2 Error Fix (69832, 69630, and 69624)
 date: 14-02-2021
-description: A summary of my experience when resetting a T2 chip MacBook, and how to resolve the errors 69832, 69630 and 69624
+description: A summary of my experience when resetting a T2 chip MacBook, and how to resolve the errors - 69832, 69630 and 69624
 ---
 
 This is a bit of a long-winded post but I had a major issue with my laptop which caused me a lot of stress and annoyance, this is my experience of the issue and a fix for anyone who may come across it in the future
