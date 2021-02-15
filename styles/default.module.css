@@ -30,11 +30,12 @@
 .subHeading {
     color: #555555;
     font-weight: 410;
+    margin: 0;
 }
 #links {
     width: 75%;
     max-width: 540px;
-    margin-top: 2em;
+    margin-top: 1.5em;
     display: flex;
     align-items: center;
     justify-content: space-between;
