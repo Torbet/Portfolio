@@ -63,6 +63,7 @@
     user-select: none;
     -webkit-user-select: none;
     cursor: default;
+    margin-bottom: 1em;
 }
 
 
