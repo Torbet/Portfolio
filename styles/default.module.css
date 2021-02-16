@@ -25,9 +25,11 @@
 }
 
 #title {
+    font-size: 2.2em;
     color: #0000FF;
 }
 .subHeading {
+    font-size: 1.2em;
     color: #555555;
     font-weight: 410;
     margin: 0;
