@@ -10,7 +10,7 @@ This is a bit of a long-winded post but I had a major issue with my laptop which
 
 Last summer I ran a semi-routine clean install on my 2018 MacBook Pro. This involves the following steps (in the given order):
 
-- Creating a USB installer with the latest macOS Mojave 10.14.2.
+- Creating a USB installer with the latest macOS Catalina.
 - Booting into the USB (Pressing Option key on boot).
 - Using the Disk Utility, erasing the Disk and formatting it as APFS with a GPT partition scheme.
 - Using the Terminal, unmounting the disk diskutil unmountDisk disk0, where disk0is the internal NVME drive.
