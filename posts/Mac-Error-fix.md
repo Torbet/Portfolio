@@ -1,6 +1,6 @@
 ---
 title: MacBook T2 Chip Error Fix (69832, 69630, and 69624)
-date: 14-02-2021
+date: 12-02-2021
 description: A summary of my experience when resetting a T2 chip MacBook, and how to resolve the errors - 69832, 69630 and 69624
 ---
 
