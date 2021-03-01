@@ -3,6 +3,8 @@ import Head from 'next/head'
 import { FaArrowLeft } from "react-icons/fa"
 import {useRouter} from 'next/router'
 
+import Mail from '../components/mail'
+
 import styles from '../styles/postlayout.module.css'
 
 function Header(props) {
@@ -34,7 +36,10 @@ export default function PostLayout(props) {
         
                 <article id={styles.content}>
                     <div id={styles.date}>{props.date}</div>
-                    <div id={styles.post}>{props.children}</div>
+                    <div id={styles.post}>
+                        {props.children}
+                        <Mail />
+                        </div>
                 </article>
 
             </div>

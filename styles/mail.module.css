@@ -1,6 +1,6 @@
 #container {
-    width: 75%;
-    max-width: 540px;
+    width: 100%;
+    max-width: 740px;
     height: 2em;
     display: flex;
     justify-content: space-around;
