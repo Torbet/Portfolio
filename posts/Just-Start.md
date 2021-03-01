@@ -31,6 +31,8 @@ Building habits and routine is fundamental to productivity and success - in esse
 
 All this isn't to say that planning isn't paramount. Don't make a mistake that hundreds have made before you, but there comes a point where no amount of planning will be enough, you'll paralyse yourself.
 
+I recently learned about AI and deep learning, and with so many options for frameworks, I was overwhelmed and frustrated that no one could give me the answer to which was the "best". Eventually, I just said fuck it and picked PyTorch and ran with it, so when it came time to try out another, I had the fundamentals and it was easy to learn!
+
 No amount of planning is a substitute for action, get an idea of what you want to do, write down how you will get there, and figure the rest out on the way!
 
 At the start, stop worrying about the outcome, and just enjoy the journey. After all, "the journey of a thousand miles begins with a single step" - So stop fucking around, and just start.
