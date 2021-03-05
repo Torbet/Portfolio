@@ -21,6 +21,7 @@ export async function getPosts() {
             slug: post.replace('.md',''),
             title: meta.data.title,
             date: meta.data.date,
+            description: meta.data.description,
         })
     }
     return posts;
