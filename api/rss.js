@@ -20,24 +20,32 @@ function getPosts() {
     return(posts)
 }
 
+function formatDate(date) {
+    var splitDate = date.split('-');
+    var month = splitDate[1] - 1; //Javascript months are 0-11
 
+    const options = { day: 'numeric', month: 'long', year: 'numeric' };
+    const today = new Date(splitDate[2], month, splitDate[0]);
 
+    return today;
+}
 
 
 function generate() {
     const previewItems = getPosts('posts');
     const feed = new RSS({
-      title: "Guy Torbet ~ Posts",
+      title: "Guy Torbet | Posts",
       site_url: "https://torbet.co/",
-      feed_url: "https://torbet.co//feed.xml",
+      feed_url: "https://torbet.co/feed.xml",
     });
+    
   
     previewItems.map((post) => {
       feed.item({
         title: post.title,
         guid: post.slug,
         url: `https://torbet.co/posts/${post.slug}`,
-        date: post.date,
+        date: formatDate(post.date),
         description: post.description,
       });
     });
