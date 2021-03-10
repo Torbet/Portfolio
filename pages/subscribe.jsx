@@ -5,9 +5,9 @@ export default function SignUp() {
   return (
     <main>
 
-      <head>
+      <Head>
         <title>Newsletter Signup | Guy Torbet</title>
-      </head>
+      </Head>
 
       <div id={styles.container}>
         <style type="text/css" dangerouslySetInnerHTML={{ __html: "\n  @import url(https://static.mailerlite.com/assets/plugins/groot/modules/includes/groot_fonts/import.css?version=1614254);\n" }} />
@@ -44,7 +44,15 @@ export default function SignUp() {
         </div>
         <img src="https://track.mailerlite.com/webforms/o/3516154/t4d6z1?v1614257997" width={1} height={1} style={{ maxWidth: '1px', maxHeight: '1px', visibility: 'hidden', padding: 0, margin: 0, display: 'block' }} alt="." border={0} />
       </div>
-    </main>
+      <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              function ml_webform_success_3516154(){var r=ml_jQuery||jQuery;r(".ml-subscribe-form-3516154 .row-success").show(),r(".ml-subscribe-form-3516154 .row-form").hide()}
+        `,
+            }}
+          />
+      <script src="https://static.mailerlite.com/js/w/webforms.min.js?v42b571e293fbe042bc115150134382c9" type="text/javascript"></script>
+      </main>
 
   )
 }

@@ -35,6 +35,19 @@
     opacity: 0.75;
 }
 
+#success {
+    padding: 1em 0;
+}
+
+#thanks {
+    color: #0000FF;
+    font-size: 1.3em;
+}
+#message {
+    color: #555555;
+    font-size: 1.2em;
+}
+
 @media only screen and (max-width: 740px) {
     #container {
         width: 100%;
