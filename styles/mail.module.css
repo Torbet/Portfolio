@@ -21,7 +21,7 @@
 }
 
 
-#button {
+#button1 {
     cursor: pointer;
     font-size: 1.1em;
     padding: 0.5em 0.75em;
@@ -31,8 +31,18 @@
     font-weight: 450;
     background-color: #0000FF;
 }
-#button:hover {
+#button1:hover {
     opacity: 0.75;
+}
+#button2 {
+    cursor: pointer;
+    font-size: 1.1em;
+    padding: 0.5em 0.75em;
+    border-radius: 2em;
+    border: none;
+    color: #FFF;
+    font-weight: 450;
+    background-color: #0000FF;
 }
 
 #success {
