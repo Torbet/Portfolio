@@ -4,8 +4,18 @@
         <description><![CDATA[Guy Torbet | Posts]]></description>
         <link>https://torbet.co/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 05 Mar 2021 22:37:20 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 12 Mar 2021 15:42:44 GMT</lastBuildDate>
         <atom:link href="https://torbet.co/feed.xml" rel="self" type="application/rss+xml"/>
+        <language><![CDATA[en]]></language>
+        <managingEditor><![CDATA[Guy Torbet]]></managingEditor>
+        <webMaster><![CDATA[Guy Torbet]]></webMaster>
+        <item>
+            <title><![CDATA[How I Built My Site (with Perfect Lighthouse Score)]]></title>
+            <description><![CDATA[This is How I Built My Site, and achieved a Perfect Lighthouse Score. I rundown all the fudamental issues and how to solve them, aswell as how to optimise your page for Google.]]></description>
+            <link>https://torbet.co/posts/Build-This-Site</link>
+            <guid isPermaLink="false">Build-This-Site</guid>
+            <pubDate>Fri, 12 Mar 2021 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Just Start]]></title>
             <description><![CDATA[How to stop inactivity and just start what you want to do. The flywheel concept of getting things off the ground and the best and only time to start is now!]]></description>

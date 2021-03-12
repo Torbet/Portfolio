@@ -31,7 +31,7 @@ function formatDate(date) {
 
 
 function generate() {
-    const previewItems = getPosts('posts');
+    const previewItems = getPosts();
     const feed = new RSS({
         title: "Guy Torbet | Posts",
         site_url: "https://torbet.co/",
