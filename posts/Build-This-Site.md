@@ -75,7 +75,7 @@ function Posts({ allPosts }) {
 
 Implementing a RSS feed required the same getPosts function, but in pure nodeJS, here's what that looks like - it's a bit easier to understand what's happening:
 
-```jsx
+```js
 function getPosts() {
     var posts = []
     let filenames = fs.readdirSync("posts");

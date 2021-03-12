@@ -5,7 +5,7 @@ import theme from 'react-syntax-highlighter/dist/cjs/styles/hljs/googlecode';
 const CodeBlock = ({ language, value }) => {
 
     const codeStyle = {
-        width: "100%",
+        width: "100%"
     }
 
     const blockStyle = {
@@ -14,7 +14,8 @@ const CodeBlock = ({ language, value }) => {
         lineHeight: '1.5em',
         fontSize: "1.2rem",
         marginBottom: '1em',
-        backgroundColor: 'rgba(0, 0, 0, 0.05)'
+        backgroundColor: 'rgba(0, 0, 0, 0.05)',
+        letterSpacing: '1px'
       }
 
     return (
