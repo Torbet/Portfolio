@@ -1,6 +1,6 @@
 import React from "react"
 import SyntaxHighlighter from 'react-syntax-highlighter';
-import theme from 'react-syntax-highlighter/dist/cjs/styles/hljs/googlecode';
+import theme from 'react-syntax-highlighter/dist/cjs/styles/hljs/atom-one-dark';
 
 const CodeBlock = ({ language, value }) => {
 
@@ -14,7 +14,6 @@ const CodeBlock = ({ language, value }) => {
         lineHeight: '1.5em',
         fontSize: "1.2rem",
         marginBottom: '1em',
-        backgroundColor: 'rgba(0, 0, 0, 0.05)',
         letterSpacing: '1px'
       }
 
