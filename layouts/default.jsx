@@ -25,8 +25,8 @@ export default function Default(props) {
                     "@context":"https://schema.org/",
                     "@type":"Organization",
                     "name":"Guy Torbet",
-                    "image":"https://torbet.co/favicon.ico"
-                    "logo":"https://torbet.co/favicon.ico"
+                    "image":"https://torbet.co/favicon.ico",
+                    "logo":"https://torbet.co/favicon.ico",
                     "url": "https://torbet.co"
                     }
                     `}
