@@ -36,6 +36,7 @@ export async function getPostBySlug(slug){
         title: post.title,
         date: post.date,
         description: post.description,
-        content: content
+        slug: slug,
+        content: content,
     }
 }

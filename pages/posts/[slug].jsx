@@ -8,15 +8,20 @@ import Image from '../../components/image'
 import styles from '../../styles/post.module.css'
 
 import { formatDate, getPostBySlug, getPosts } from '../../api/index'
+import Schema from '../../components/schema'
 
 function Post(props) {
 
     return (
-        <PostLayout title={props.title} date={formatDate(props.date)} description={props.description}>
-            <div id={styles.post}>
-                <ReactMarkdown source={props.content} renderers={{code: CodeBlock, image: Image}} />
-            </div>
-        </PostLayout>
+        <article>
+            <Schema post={props}/>
+            
+            <PostLayout title={props.title} date={formatDate(props.date)} description={props.description}>
+                <div id={styles.post}>
+                    <ReactMarkdown source={props.content} renderers={{code: CodeBlock, image: Image}} />
+                </div>
+            </PostLayout>
+        </article>
     )
 }
 
