@@ -23,8 +23,11 @@ const Schema = ({ post }) => {
       "@context":"https://schema.org/",
       "@type":"Article",
       "name":"${title}",
+      "headline":"${title}",
       "about": "${description}",
       "author": { "@type": "Person", "name": "Guy Torbet" },
+      "publisher": { "@id": "${site}" },
+      "image":"https://torbet.co/favicon.ico"
       "datePublished": "${date}",
       "description": "${description}",
       "inLanguage": "English",
