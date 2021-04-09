@@ -1,12 +1,6 @@
 import Head from "next/head";
 const site = "https://torbet.co/"
-const siteTitle = "Guy Torbet"
 
-function strip(html) {
-  var one = html.replace(/<\/?[^>]+(>|$)/gm, "");
-  var two = one.replace(/[\r\n]\s*[\r\n]/gm, "");
-  return two;
-}
 
 const Schema = ({ post }) => {
   const {
@@ -32,7 +26,7 @@ const Schema = ({ post }) => {
       "description": "${description}",
       "inLanguage": "English",
       "mainEntityOfPage": "${site}posts/${slug}",
-      "url": "${site}posts/${slug}"
+      "url": "${site}posts/${slug}",
     }
     `}</script>
     </Head>
