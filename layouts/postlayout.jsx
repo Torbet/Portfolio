@@ -38,6 +38,7 @@ export default function PostLayout(props) {
                     <div id={styles.date}>{props.date}</div>
                     <div id={styles.post}>
                         {props.children}
+                        I also have an email newsletter, it's about a 2-5 minute read every week of high quality tech and productivity content, you can sign up to it here!
                         <Mail />
                         </div>
                 </article>
