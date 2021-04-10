@@ -94,6 +94,12 @@
 
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     }
+    #links {
+        margin-top: 1em;
+    }
+    .subHeading {
+        font-size: 1.1em;
+    }
     #about {
         margin: 2em auto;
     }
