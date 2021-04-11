@@ -9,7 +9,7 @@ const CodeBlock = ({ language, value }) => {
     }
 
     const blockStyle = {
-        font-family: 'Helvetica Neue', 'Helvetica';
+        fontFamily: 'Helvetica Neue',
         borderRadius: "20px",
         padding: '1em',
         lineHeight: '1.5em',
