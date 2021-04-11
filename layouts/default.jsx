@@ -19,7 +19,7 @@ export default function Default(props) {
                 <meta property="og:title" content="Guy Torbet | Portfolio" />
                 <meta property="og:description" content="A portfolio of Guy Torbet. Updating the progress of projects and summarising key information from what I read online - hopefully providing value." />
 
-                <meta name="twitter:card" content="summary" />
+                <meta name="twitter:card" content="player" />
                 <meta name="twitter:site" content="@guytorbet" />
                 <meta name="twitter:title" content="Guy Torbet | Portfolio" />
                 <meta name="twitter:description" content="A portfolio of Guy Torbet. Updating the progress of projects and summarising key information from what I read online - hopefully providing value." />
