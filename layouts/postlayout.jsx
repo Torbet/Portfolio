@@ -30,6 +30,12 @@ export default function PostLayout(props) {
                 <meta property="og:description" content={props.description} />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta charSet="utf-8" />
+
+                <meta name="twitter:card" content="player" />
+                <meta name="twitter:site" content="@guytorbet" />
+                <meta name="twitter:title" content={props.title} />
+                <meta name="twitter:description" content={props.description} />
+                <meta name="twitter:image" content="https://torbet.co/profile.jpg" />
             </Head>
             <div id={styles.main}>
                 <Header title={props.title} />
