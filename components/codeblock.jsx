@@ -9,12 +9,12 @@ const CodeBlock = ({ language, value }) => {
     }
 
     const blockStyle = {
+        font-family: 'Helvetica Neue', 'Helvetica';
         borderRadius: "20px",
         padding: '1em',
         lineHeight: '1.5em',
-        fontSize: "1.2rem",
+        fontSize: "1.2em",
         marginBottom: '1em',
-        letterSpacing: '1px'
       }
 
     return (
