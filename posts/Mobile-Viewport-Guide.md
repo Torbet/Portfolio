@@ -8,8 +8,10 @@ I don't know if you've noticed, but using the vertical viewport on mobile is shi
 
 Look at the following picture and tell me where you think 100vh should be. Most of you probably said the green arrow, you know, the VISIBLE bit? Actually, 100vh goes all the way to the red arrow, why? I don't know, maybe because that little menu bar at the bottom is ever so slightly transparent that it counts as 'visible'?
 
-<img src="https://torbet.co/images/IMG_92DC7DF848BF-1.jpeg"/>
-<img src="https://torbet.co/images/Untitledgarrows.png"/>
+a             |  b
+:-------------------------:|:-------------------------:
+![](https://torbet.co/images/IMG_92DC7DF848BF-1.jpeg)  |  ![](https://torbet.co/images/Untitledgarrows.png)
+
 
 Say you want a 100vh div, just to fill the space of the green arrow and nothing more, if you're on IOS, it's easy, just use webkit to fill the space:
 
