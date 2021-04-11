@@ -23,7 +23,7 @@ export default function Default(props) {
                 <meta name="twitter:site" content="@guytorbet" />
                 <meta name="twitter:title" content="Guy Torbet | Portfolio" />
                 <meta name="twitter:description" content="A portfolio of Guy Torbet. Updating the progress of projects and summarising key information from what I read online - hopefully providing value." />
-                <meta name="twitter:image" content="https://torbet/profile.jpg" />
+                <meta name="twitter:image" content="https://torbet.co/profile.jpg" />
                 
                 <script type="application/ld+json">{`
                     {
