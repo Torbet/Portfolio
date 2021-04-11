@@ -1,4 +1,8 @@
-# How to REALLY handle mobile Viewports
+---
+title: A Guide To Mobile Viewports
+date: 16-04-2021
+description: A summary of my experience when resetting a T2 chip MacBook, and how to resolve the errors - 69832, 69630 and 69624
+---
 
 I don't know if you've noticed, but using the vertical viewport on mobile is shit. Here's a quick guide on how to make them less awful.
 
