@@ -2,7 +2,7 @@
     font-family: 'Helvetica Neue', 'Helvetica';
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
+    box-sizing: content-box;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
