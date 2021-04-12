@@ -2,7 +2,7 @@
     font-family: 'Helvetica Neue', 'Helvetica';
     padding: 0px;
     margin: 0px;
-    box-sizing: content-box;
+    box-sizing: border-box;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -10,6 +10,6 @@
 }
 
 pre * {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: monospace;
     font-weight: bold;
 }
