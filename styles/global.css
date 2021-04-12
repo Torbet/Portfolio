@@ -8,3 +8,8 @@
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
 }
+
+pre * {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
